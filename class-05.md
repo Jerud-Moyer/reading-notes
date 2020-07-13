@@ -1,0 +1,129 @@
+## HTML
+### chapter 5 - images
+- choosing images
+    - relevent
+    - convey info
+    - convey mood
+    - be instantly recognizable
+    - fit the color palette
+- storing images on your site
+- adding images
+    - img tag
+    - src tells browser source
+    - alt text description
+    - title attribute
+    - img tag can use height and width attributes
+    - use css to align images
+- creating images
+    - save in right format
+        - jpeg, gif or png
+    - save at right size (same as it will appear on web page)
+    - measure image in pixels
+- image formats
+    - jpeg
+    - gif
+    - vector images
+    - animated gifs
+- transparent images must be 1 of 2 formats
+    - transparent gif
+    - png
+- figure tag can use figcaption tag
+
+## CSS
+### chapter 11 - color
+- foreground color
+    - specify color of text inside an element
+        - RGB values
+        - HEX codes
+        - color names
+- background color
+    - same 3 methods
+- understanding color
+    - all combinations of reds, blue and green
+    - hue, saturation and brightness
+- contrast!
+- opacity
+- hsla (hue, saturation,lightness, alpha)
+    - hue ange between 0 and 360
+    - saturation percentage
+    - lightness percentage
+    - alpha (transparency) number between 0-1
+
+### chapter 12 - text
+- typeface terminology
+    - serif: extra details at the ends
+    - sans-serif: straight ends
+    - monospace: every letter same width
+    - weight
+        - light
+        - medium
+        - bold
+        - black
+    - style
+        - normal
+        - _italic_
+        - *oblique*
+    - stretch
+        - condensed
+        - regular
+        - extended
+- choosing typeface
+    - choose wisely
+- specifying typefaces
+    - font-family
+- size of type
+    - font-size
+        - pixels
+        - percent
+        - ems
+    - type scales
+        - old school shit!
+        - @font-face
+            - use a font thats not on someones computer with src url
+        - understanding font formats
+            - eot
+            - woff
+            - ttf/otf
+            - svg
+    - text-transform
+        - uppercase
+        - lowercase
+    - text-decoration
+        - underline
+        - overline
+        - line-through
+        - blink
+    - leading
+        - line-height
+    - letter and word spacing
+        - kerning
+    - text-align
+        - left
+        - right
+        - center
+        - justify
+    - vertical-align
+        - align text with other inline elements
+    - text-indent
+    - text-shadow
+        - 2px 2px color
+    - :first-letter
+    - :first-line
+        - give these special treatment
+    - :link style links not yet visited
+    - :vivited style liks that have been clicked on
+- responding to users
+    - :hover
+        - styled on hover
+    - :active
+        - applied when an element is being activated by a user
+    - focus
+        - like when cursor is in a form input
+- other attribute selectors
+    - [] targets specific attribute
+    - [=] specific attribut with specific value
+    - [~=] specific attribute whos value appears in a spac e separated list of words
+    - [^=] specific atribute whios value begins with a specific string
+    - [*=] specific attribute whos value contains a specific sub-string
+    - [$=] matches a specific attribute whos value ends with a specific string
+
