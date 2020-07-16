@@ -23,4 +23,10 @@
     - getItem with noexisten key will return null
 - tracking changes to storage area
     - trap data storage event
-    - 
+- limitations in current browsers
+- HTML5 storage in action
+    - stringify
+    - data is stored as strings
+    - parse
+- beyond named key-value pairs
+
