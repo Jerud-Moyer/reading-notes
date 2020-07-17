@@ -1,0 +1,97 @@
+## domain modeling
+- the process of creating a conceptual model in code.
+    - a model describes the various entities
+        - their behaviors
+        - and attributes
+        - constraints
+        - that govern the the problem domain
+- constructor function
+    - declare variable, define with function(parameter, parameter);
+    - key values
+- generate randome numbers
+- calculate daily likes
+- will code this after daily reading complete!
+
+## HTML
+### chapter 6 - tables
+- What's a table
+    - a table represents info in a grid format
+    - each info block is a cell
+- basic table structure
+ - Table el
+    - tr - table row
+    - td - table data (cell)
+    - th - table head
+- spanning columns
+    - use colspan"" =to make cell cover multiple cell widths
+- spanning widths
+    - rowspan
+- long tables
+    - thead
+    - tbody
+    - tfoot
+- old code
+    - width and spacing
+        - may find width attribute in older code. dont use now
+    - border and background
+        - border attribute (use css now)
+
+## JavaScript
+### chapter 3 (revisited)
+
+- creating an object: constructor notation
+    - createa blank object
+        - const variable = new object()
+        - update vaue of keys with dot notation
+        or brackets
+- constructor functions
+    - used to create objects
+    - start with capitol do denote purpose
+- adding and removing properties
+    - dot notation
+- THIS keyword
+    - global scope
+        - in reference to window object
+    - in a method
+        - this refers to containing object
+- recap - storing data
+    - in JS data is stored as key value pairs
+    - group related values in arrays or objects
+- arrays *are* objects
+    - but key for each value is an index #
+    - arrays of objects
+    - objects in an array
+- what are built in objects?
+    - Browser Object Model
+        - window object
+            - document
+            - history
+            - location
+            - navigator
+            - screen
+    - Document Object Model
+        - HTML
+            - branch 1
+                - head
+                - title
+            - branch 2
+                - body
+                - div
+                - p
+                - text
+    - Global JS Objects
+        - data types
+            - string
+            - boolean
+            - number
+        - date
+        - math
+        - regex
+            - for matching patterns within strings of text
+- the window object
+    - the current browser window or tab
+- the document object
+    - the webpage loaded into the current window or tab
+- string object
+- number object
+- math object
