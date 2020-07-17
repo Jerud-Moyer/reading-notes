@@ -122,6 +122,54 @@
     - treaditional DOM event handlers
         - element.onevent = functioname
     - DOM level 2 handlers
+- event listeners
+    - newer way to handle events
+    - they can deal with more than one
+- using parameters with ehandlers and listeners
+- event flow
+    - event bubbling
+        - js can make it co events also trigger parent els
+        - events starts at most specific node, then travels outward
+    - event catpturing
+        - event starts at least specific node and travels inward
+    - why flow matters
+        - flow only really matters when we have event handlers in our code on an element *and* one of it's ancester elements.
+        - default is bubbling
+        - final parameter in addEventListener
+        is boolean. true = capoturing and false = bubbling
+- the event object
+    - when even=t occurs the object tells you info about the event and the el it happened on.
+    - using e listeners with the event object
+- event delegation
+    - e listeners for many els can slow down a page, flow allows you to listen for event on parent el
+    - works with new els
+    - solves limitations with *this* keyword
+    - simplifies your code
+- changing defaiult behavior
+    - event object has methods to change default behavior of an el and its ancestors
+        - preventDefault()
+        - stopPropagation()
+        - using both methods
+            - return false
+- different types pof events
+    - w3c DOM events
+    - HTML5 events
+    - BOM events
+- ui events
+    - load / unload
+    - error
+    - resize
+    - scroll
+- focus and blur events
+- mouse events
+- click
+- event object tells you where the cursor was when event was triggered
+- keyboard events
+- form events
+- mutation events
+- HTML 5 events
+
+
 
 
 
