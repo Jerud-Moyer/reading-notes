@@ -30,3 +30,116 @@
     - parse
 - beyond named key-value pairs
 
+
+## CSS
+### chapter 15 - layout
+
+- key concepts in positioning elements
+    - block-level els
+        - if one sits in the other, the outer el is the parent
+        - start on new line
+    - inline els
+        - flow in between surrounding text
+- controlling the position of elements
+    - positioning schemes
+        - normal flow
+            - each block element appears below the last. regardless of width.
+        - relative positioning
+            - moves an element but not the others
+        - absolute positioning
+            - positions the element relative to its parent. out of normal flow, does nor=t affect position of others. move as users scroll
+        - fixed positioning
+            - a form of absolute that positions element in relation to browser window as apposed to parent element. do not affect others, do not move on scroll
+        - floating elements
+            - allows you to take out of normal flow and position to far right or far left of containing box. becomes block element around which others can flow.
+        - when you move any element from normal flow, it can overlap. z-index property allows you to decide which will be on top.
+- more on this
+    - normal flow
+        - position: static
+        - each new el sits on top of the next one
+        - el start on a new line regardless of width
+    - relative positioning
+        - moves an el in relation to where it would have been in normal flow
+        - position: relative
+        - ie top: 10px moves 10px lower
+            - left: 100px moves 100px to right
+    - absolute positioning
+        - position: absolute
+        - box is taken out of normal flow and no longer affects the position of other els on the page
+        - offset properties specify where it should be in relation to it's parent
+    - fixed positioning
+        - position: fixed
+        - positions element in relation to browser window
+        - when user scrolls, el stays in same place
+- overlapping els
+    - z-index
+        - in relative, fixed or absolute, els can overlap
+        - z-index property lets you decide which should appear on top
+        - its value is a number
+        - els with higher numbers appear on top of those lower
+- floating els
+    - float
+        - take an el in normal flow and position as far left or right as parent allows
+        - use with width property to determain positioning
+    - using float to place els side by side
+        - height of box can affect where els sit
+    - clearing floats
+        - clear:
+        saying that el should touch direction (l,r,t,b) of parent
+    - parents of floated els: problem
+        - if a box contains only floated els it can appear collapsed in certain browsers
+        - solution
+            - overflow: auto
+            - width: 100%
+    - multi-column layouts with floats
+        - use a div for each column
+        - use width:
+        - float:
+        - margin:
+    - screen sizes
+        - different sized screens show different amounts of information 
+        - also different resolution
+        - designers often try to create pages around 960-1000 px wide
+        - let users know what to expect in top 600 px of screen
+    - fixed width layouts
+        - advantages
+            - pixel  values are accurate
+            - designer has more control
+            - size of inage will remain the same
+        - disadvantages
+            - you can end up with big gaps around edge of page
+            - if user screen is higher res. page can look smaller and text harder to read
+            - if user increases font size, text might not fit in alloted
+            - works best on devices like laptop or desktop
+            - page will ofetn ytake up more verticle space thatn liquid layout with same content
+    - liquid layouts
+        - advantages
+            - pages expand to fill entire browser window
+            - if user has small window page can contract to fit without user having to scroll to the side.
+            - design is tolerant of user setting font sizes larger
+        - disadvantages 
+            - if you dont control the width of sections of page the design can look very different than you intend
+            - if user has wide window text lines can become long
+            - if a fixed width item is in a box too small( because user mad e window smaller) image can overflow text
+- a fixed width layout
+    - width of main boxes specified in pixels
+- a liquid layout
+    - uses percentages to specify the width of each box so that the design will stretch to fit the size of the screen
+    - give body width: 90%
+- layout grids
+    - 960 pixel grid used widely by web designers
+    - grids set consistent proportions and spaces between items
+    - 960 pixel wide 12 column grid offers many layout options
+- css frameworks
+    - advantages
+        - save you from writing repeat code
+        - tested across different browser versions
+    - disadvantages
+        - often require use of html class names that only control presentation and not content
+        - code bloat
+    - using 960.gs grid
+        - put in html css link
+
+
+
+
