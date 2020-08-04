@@ -29,3 +29,10 @@
 
 
 ## for vs for each
+- syntax
+    - callback
+        - current value
+        - index
+        - array
+    - this arg (optional)
+    
