@@ -25,6 +25,7 @@
     - any function passed as an argument and called by the function that recieves it is a callback function
 - create a callback
 ### javascript callback functions
+- 
 ### first class functions
 - assign a function to a variable
 - pass a function as an argument
