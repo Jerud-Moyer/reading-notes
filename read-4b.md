@@ -1,0 +1,61 @@
+## RegExr
+- ok this is confusing me
+- hover over thins and things are happenning elswhere
+### cheatsheet
+- character classes
+    - .	any character except newline
+    - \w\d\s	word, digit, whitespace
+    - \W\D\S	not word, digit, whitespace
+    - [abc]	any of a, b, or c
+    - [^abc]	not a, b, or c
+    - [a-g]	character between a & g
+- anchors
+    - ^abc$	start / end of the string
+    - \b\B	word, not-word boundary
+- Escaped characters
+    - \.\*\\	escaped special characters
+    - \t\n\r	tab, linefeed, carriage return
+- groups and lookaround
+    - (abc)	capture group
+    - \1	backreference to group #1
+    - (?:abc)	non-capturing group
+    - (?=abc)	positive lookahead
+    - (?!abc)	negative lookahead
+- quantifiers and alteration
+    - a*a+a?	0 or more, 1 or more, 0 or 1
+    - a{5}a{2,}	exactly five, two or more
+    - a{1,3}	between one & three
+    - a+?a{2,}?	match as few as possible
+    - ab|cd	match ab or cd
+## regex tutorial
+- basic topics
+    - Anchors-^ and $
+        - ^the
+        - end$
+        - ^the end$
+        - roar
+    - quantifiers
+        - abc*
+        - abc+
+        - abc?
+        - abc{2}
+        - abc{2,}
+        - abc{2,}
+        - abc{2,5}
+        - a(bc)*
+        - a(bc){2,5}
+    - OR operator - | opr []
+        - a(b|c)
+        - a[bc]
+    - Character classes
+        - flags
+    - intermediate topics
+        - grouping and capturing-()
+        - bracket expressions
+        - greedy and lazy match
+    - advanced topics
+        - boundaries - \b and \B
+        - back-references - \1
+        - look ahead and look behind
+    - summary
+    
