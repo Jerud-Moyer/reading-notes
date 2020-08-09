@@ -1,0 +1,38 @@
+## what is node and when should I use it
+- what is node.js?
+    - a javascript runtime build
+    - node is built on Chrome's v8 js engine
+    - it is a program that we use to run JS on our computers
+- how do I install noide js?
+    - node binaries vs version manager
+        - with version manager you can set a node version on a per project basis
+- node has excellent support for modern JS
+    - *did cool code examples
+- introducung npm, the JS package manager
+    - npm is world's largest software registry
+    - insatlling a package globally
+        - *did example
+    - installing a package locally
+        - *did example
+- what is node js used for
+    - most common uses
+        - installing (npm)
+        - running (node)
+- node js lets us run JS on the server
+    - the node js excecution model
+    - node.js gives us asynchronous behaviour from servers
+- what kind of apps is node.js suuited to
+    - apps that require real time interaction or collaboration
+        - chat sites
+        - codeShare
+        - good for building APIs
+- what are the advantages of Node.js?
+    - speed and scalability
+    - you can do everything in the same language (javascript)
+    - data can flow between layers without needing reformatting
+    - one synatx from browser to server to database
+- other uses of Node
+    - it can be used a scripting language
+    - can be used to build cross platform desktop apps
+    
+
