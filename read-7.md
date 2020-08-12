@@ -9,5 +9,5 @@
 - verbs, pronouns and adjectives
 - scmet, mandle and zorp
 ### documentation for SuperAgent
-- SuperAgegent is a light-weight ajax API crsfted for fleibility, readability, ansd a low learning curve. Works with Node.js
+- SuperAgent is a light-weight ajax API crafted for fleibility, readability, ansd a low learning curve. Works with Node.js
 - skimmed and downloaded
