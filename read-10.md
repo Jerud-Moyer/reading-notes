@@ -1,0 +1,30 @@
+## styling videos
+- https://www.youtube.com/playlist?list=PL4cUxeGkcC9g5_p_BVUGWykHfqx6bb7qK
+- base form styles
+    - A good start to form styling
+- radio buttons
+    - selct radio in css
+        - opacity: 0;
+        - width: 0;
+        - margin: 0;
+    - select label
+        - margin-bottom: 10ox:
+        - display: inline-block;
+        - padding-left: 26px;
+        - background: url(img/checks.png) no repeat;
+        - background-position: 0 -32px;
+        - cursor: pointer;
+    - select input:checked + label
+        - background-position: 0 0;
+- checkboxes
+    - select checkbox
+    - opacity, width and margin all 0
+    - display inline-block
+    - margin-bottom margin- left
+    - line-height 24px;
+- text inputs
+    - alot of repetative info but a really good tutorial here 
+- contact inputs 
+- validation styles
+    - 
+
