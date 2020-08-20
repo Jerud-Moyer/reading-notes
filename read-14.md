@@ -1,0 +1,12 @@
+### some ideas for project week
+- recipe app
+    - get recipes from maybe a couple of different food apis
+    - fill out a form to store recipes in  a database and access them later
+- taco app
+    - alot like the recipe app but just for tacos
+    - using the taco fancy api
+    - daily taco on login!
+- music albums app
+    - user enters an album name or artist get back album art and info
+    - would have to further research apis for this. Maybe Spotify for Developers could work.
+- all ideas would have full stack with a React front end to display everything for user.
