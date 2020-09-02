@@ -103,6 +103,7 @@ practices and to frequently reflect on one’s work and be willing to change.
     - think about how to implement your code better or more efficiently
     
 ## The Cycles of TDD
+- https://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html
 - **Second by Second** _nano-cycle_; The three laws of TDD
     - You must write a failing test before you write any production code
     - You must not write more of a test than is sufficient to fail, or fail to compile
@@ -114,7 +115,11 @@ practices and to frequently reflect on one’s work and be willing to change.
         - Clean up the mess you just made
 - **Decaminute by Decaminute** _milli-cycle_: Specific/Generic
     - as the tests get more specific the code gets more generic
-    
+        - If the changes you make to the production code, pursuant to a test, make that test pass, but would not make other unwritten tests pass, then you are likely making the production code too specific.
+        - add specificity to the tests slowly
+- **Hour By Hour** _Primary-cycle_: Boundaries
+    - The final primary cycle of TDD is the cycle that ensures that all the other cycles are driving us towards a Clean Architecture.
+
 
 
 
