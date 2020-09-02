@@ -1,0 +1,2 @@
+## Quantity trumps Quality
+- an interesting take that quantity essentially begets quality. That it's better to be always working on new iterations of something and learn from your mistakes than to labor over one perfect thing.
